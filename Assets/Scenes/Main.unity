@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 307448957}
   - component: {fileID: 307448956}
   - component: {fileID: 307448955}
+  - component: {fileID: 307448959}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -219,6 +220,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &307448959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 307448954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66edbd0fe032a734a8b94592768a77ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &317686262
 GameObject:
   m_ObjectHideFlags: 0
@@ -229,7 +242,6 @@ GameObject:
   m_Component:
   - component: {fileID: 317686265}
   - component: {fileID: 317686264}
-  - component: {fileID: 317686263}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -237,14 +249,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &317686263
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 317686262}
-  m_Enabled: 1
 --- !u!20 &317686264
 Camera:
   m_ObjectHideFlags: 0
